@@ -1,0 +1,77 @@
+# Ignore Maven build output
+target/
+**/target/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+
+
+# Ignore IntelliJ IDEA files
+*.log
+*.patch
+*.diff
+*.idea
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency files (downloaded by Maven)
+**/dependency-reduced-pom.xml
+**/pom.xml.versionsBackup
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore test output
+**/test-output/
+**/surefire-reports/
+**/failsafe-reports/
+**/test-results/
+
+# Ignore Maven wrapper files (if not used)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore other generated files
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+
+# Ignore other common files
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
